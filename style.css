@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.navbar-wrapper{
+    background: #ffffff;
+}
+
+.navbar{
+    height: 80px;
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 160px;
+}
+
+.list-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 46px;
+}
+
+.list-page{
+    gap: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins";
+}
+
+.list-page a{
+    color: #101928;
+    text-decoration: none
+}
+
+.list-page .active{
+    font-weight: bold;
+}
+
+.list-btn{
+    display: flex;
+    gap: 24px;
+}
+
+.btn{
+    width: 170px;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Inter";
+}
+
+.register{
+    background: #545BE8;
+    color: white;
+    border: none;
+}
+
+.login{
+    background: white;
+    color: #545BE8;
+    border: 1px solid #545BE8;
+}
+
+.banner-wrapper{
+    height: 705px;
+    background: #F5F5F5;
+}
+
+.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.first-text{
+    font-size: 18px;
+    font-weight: Reguler;
+    font-family: "Inter";
+    color: #545BE8;
+    padding-bottom: 16px;
+}
+
+.first-text span{
+    font-weight: bold;
+}
+
+.text-banner h1{
+    font-size: 64px;
+    font-family: "Poppins";
+    color: #141E32;
+    font-weight: bold;
+    padding-bottom: 24px;
+}
+
+.text-banner h1 span{
+    color: #545BE8;
+}
+
+.text-desc{
+    font-size: 18px;
+    font-family: "Poppins";
+    color: #969696;
+    padding-bottom: 40px;
+}
+
+.list-btn-banner{
+    display: flex;
+    gap: 24px;
+}
+
+.btn-play{
+    width: 170px;
+    padding: 13px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Inter";
+    color: #141E32;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.first-content-wrapper{
+    height: 522px;
+
+}
+
+.first-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.first-content-main{
+    width: 100%;
+    padding: 80px 0px 80px 0px;
+    display: flex;
+    overflow: hidden;
+    gap: 24px;
+}
+
+.text-first-content{
+    width: 364px;
+}
+
+.card-first-content{
+    display: flex;
+    gap:40px
+}
+
+.title-first-content{
+    color: #545BE8;
+    font-family: "Inter";
+    font-size: 18px ;
+}
+.desc-first-content{
+    color: #969696;
+    font-family: "Poppins";
+    font-size: 18px ;
+}
+
+.text-first-content h1{
+    color: #141E32;
+    font-family: "Poppins";
+    font-size: 40px ;
+    font-weight: bold;
+}
+
+.card{
+    width: 230px;
+    background: #545BE8;
+    border-radius: 10px;
+    padding: 40px 24px 40px 14px;
+}
+
+.card-logo{
+    width: 24px; 
+    height: 24px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    background: #ffffff;
+    padding: 12px;
+}
+
+.card-logo img{
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+.title-card{
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+.desc-card{
+    color: #DDDDDD;
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+.selected-course-wrapper{
+    background-image: linear-gradient(to bottom, #545BE8 , #272DB0);
+    height: 643px;
+}
+
+.selected-course{
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selected-course-image img{
+    width: 558px;
+    height: 576px;
+}
+
+.selected-course-text{
+    width: 457px;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.selected-course-title{
+    color: #F0C932;
+    font-family: "Inter";
+    font-size: 18px;
+}
+
+.selected-course-text h1{
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.selected-course-desc{
+    color: #DDDDDD;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+.selected-course-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.selected-course-data-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selected-course-data-content1{
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: bold;
+    color: #F0C932;
+}
+.selected-course-data-content2{
+    font-family: "Inter";
+    font-size: 18px;
+    color: #DDDDDD;
+}
+
+.course-wrapper{
+    background: #ffffff;
+    height: 890px;
+    /* display: flex;
+    align-items: center; */
+}
+
+.course{
+    /* background: hotpink ; */
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.course-card-list{
+    width: 696px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.course-card{
+    background: #ffffff;
+    width: 328px;
+    height: 345px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* margin: 20px; */
+}
+
+.course-card-image img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.course-card-text{
+    padding: 26px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-card-text div h3{
+    font-size: 21px;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: #141E32;
+}
+.course-card-text div p{
+    font-size: 16px;
+    font-family: "Poppins";
+    color: #969696;
+}
+.course-card-text p{
+    font-size: 12px;
+    font-family: "Poppins";
+    color: #545BE8;
+}
+
+.course-text{
+    width: 364px;
+    height: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course-text-title{
+    font-family: "Inter";
+    font-size: 18px;
+    color: #545BE8;
+}
+
+.course-text-desc{
+    font-family: "Poppins";
+    font-size: 18px;
+    color: #969696;
+}
+
+.course-text h1{
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: bold;
+    color: #141E32;
+}
+
+.testimoni-wrap{
+    /* background: skyblue; */
+    height: 440px;
+}
+
+.testimoni{
+    /* background: hotpink; */
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.testimoni-title{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: bold;
+    color: #0D1222;
+    margin-bottom: 40px;
+}
+
+.testimoni-user{
+    width: 144px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-name p:first-child{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.profile-name p:last-child{
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #969696;
+}
+
+.testimoni-card-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.testimoni-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #ffffff;
+    width: 550px;
+    height: 200px;
+    padding: 40px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.footer-wrap{
+    background: #393E46;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+    /* background: hotpink; */
+    max-width: 1140px;
+    height: 202px;
+    margin: 0 auto;
+    display: flex;
+    gap: 150px;
+}
+
+.footer-side1{
+    width: 424px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-side1 img{
+    width: 160px;
+    height: 34px;
+}
+
+.footer-side1 p{
+    list-style-type: none;
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #F4F4F4;
+}
+
+.sosmed button{
+    background-color: #393E46;
+    width: 32px;
+    height: 32px;
+}
+
+.sosmed button img{
+    width: 15px;
+    height: 15px;
+}
+
+.footer-side2{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-page-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.list-page-footer p{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.list-page-footer ul{
+    list-style-type: none;
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #F4F4F4;
+}
+
+.list-page-footer:last-child ul{
+    color: #393E46;
+}
+
+.list-page-footer:last-child ul li:first-child{
+    color: #F4F4F4;
+}
