@@ -942,6 +942,6 @@ button:hover{
         flex-wrap: wrap;
     }
     .list-page-footer{
-        padding: 10px;
+        padding-top: 10px;
     }
 }
